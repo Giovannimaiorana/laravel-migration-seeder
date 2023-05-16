@@ -22,7 +22,7 @@ class TrainSeeder extends Seeder
             $train->in_orario = $faker->boolean();
             $train->cancellato = $faker->boolean();
             $train->save();
-        }
+        };
         
     }
 }
